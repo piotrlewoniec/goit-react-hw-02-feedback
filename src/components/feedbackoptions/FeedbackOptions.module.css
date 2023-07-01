@@ -1,0 +1,21 @@
+.btn_holder {
+  display: flex;
+  gap: 14px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: aqua;
+}
